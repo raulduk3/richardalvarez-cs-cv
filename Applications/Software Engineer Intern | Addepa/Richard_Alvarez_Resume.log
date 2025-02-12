@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.1)  29 JAN 2025 12:22
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.1)  29 JAN 2025 12:30
  restricted system commands enabled.
 **Richard_Alvarez_Resume.tex
 (./Richard_Alvarez_Resume.tex
@@ -672,29 +672,28 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `Richard_Alvarez_Resume.out' has not changed.
 
-(rerunfilecheck)             Checksum: 6450AA03F4A1E40184AA75DE17C76B06;886.
+(rerunfilecheck)             Checksum: 113FA3D56530E89614FE1E4378DF69A9;798.
 )
 
 Here is how much of LuaTeX's memory you used:
- 16847 strings out of 476447
+ 16844 strings out of 476447
  195409,1977958 words of node,token memory allocated
  460 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 6 attribute, 58 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 1:7,2:1831,3:611,4:202,5:495,6:132,7:14427,8:2,9:895,10:19,11:10
-82
- 38676 multiletter control sequences out of 65536+600000
+   avail lists: 1:3,2:1625,3:611,4:202,5:506,6:130,7:14523,8:2,9:895,10:16,11:10
+85
+ 38674 multiletter control sequences out of 65536+600000
  60 fonts using 4118399 bytes
  74i,11n,80p,1054b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Avenir.ttc></System/Library/Fonts/Avenir.ttc></System/Lib
 rary/Fonts/Avenir.ttc></usr/local/texlive/2024/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmr9.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmsy5.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmsy9.pfb>
-Output written on Richard_Alvarez_Resume.pdf (2 pages, 90631 bytes).
+s/cm/cmsy9.pfb>
+Output written on Richard_Alvarez_Resume.pdf (2 pages, 81084 bytes).
 
-PDF statistics: 101 PDF objects out of 1000 (max. 8388607)
- 84 compressed objects within 1 object stream
- 12 named destinations out of 1000 (max. 131072)
- 73 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 93 PDF objects out of 1000 (max. 8388607)
+ 77 compressed objects within 1 object stream
+ 11 named destinations out of 1000 (max. 131072)
+ 65 words of extra memory for PDF output out of 10000 (max. 100000000)
 
