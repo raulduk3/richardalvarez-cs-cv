@@ -1,4 +1,4 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.1)  28 AUG 2025 02:00
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.1)  6 JUN 2025 16:02
  restricted system commands enabled.
 **Richard_Alvarez_Resume.tex
 (./Richard_Alvarez_Resume.tex
@@ -42,8 +42,8 @@ Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
 Inserting `tracingstacklevels' in `input_level_string'. (/usr/local/texlive/202
 4/texmf-dist/tex/latex/base/article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
+(/usr/local/texlive/2024/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 luaotfload | db : Font names database loaded from /Users/richardalvarez/Library/
 texlive/2024/texmf-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
 \c@part=\count186
@@ -481,25 +481,6 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 (/usr/local/texlive/2024/texmf-dist/tex/latex/tools/xspace.sty
 Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/usr/local/texlive/2024/texmf-dist/tex/latex/geometry/geometry.sty
-Package: geometry 2020/01/02 v5.9 Page Geometry
-
-(/usr/local/texlive/2024/texmf-dist/tex/generic/iftex/ifvtex.sty
-Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
-)
-\Gm@cnth=\count289
-\Gm@cntv=\count290
-\c@Gm@tempcnt=\count291
-\Gm@bindingoffset=\dimen161
-\Gm@wd@mp=\dimen162
-\Gm@odd@mp=\dimen163
-\Gm@even@mp=\dimen164
-\Gm@layoutwidth=\dimen165
-\Gm@layoutheight=\dimen166
-\Gm@layouthoffset=\dimen167
-\Gm@layoutvoffset=\dimen168
-\Gm@dimlist=\toks26
-)
 luaotfload | cache : Lookup cache loaded from /Users/richardalvarez/Library/texl
 ive/2024/texmf-var/luatex-cache/generic/names/luaotfload-lookup-cache.luc.
 luaotfload | aux : font no 20 (nil) defines no feature for script latn
@@ -536,9 +517,9 @@ tlig;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
-(./Richard_Alvarez_Resume.aux)
-\openout1 = Richard_Alvarez_Resume.aux
+No file Richard_Alvarez_Resume.aux.
 
+\openout1 = Richard_Alvarez_Resume.aux
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 171.
 LaTeX Font Info:    ... okay on input line 171.
 LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 171.
@@ -550,7 +531,6 @@ LaTeX Font Info:    ... okay on input line 171.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 171.
 LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 1
 71.
-
 (/usr/local/texlive/2024/texmf-dist/tex/latex/base/ts1cmr.fd
 File: ts1cmr.fd 2023/04/13 v2.5m Standard LaTeX font definitions
 )
@@ -568,20 +548,19 @@ LaTeX Font Info:    ... okay on input line 171.
 
 (/usr/local/texlive/2024/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count292
-\scratchdimen=\dimen169
+\scratchcounter=\count289
+\scratchdimen=\dimen161
 \scratchbox=\box56
-\nofMPsegments=\count293
-\nofMParguments=\count294
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count295
-\MPscratchDim=\dimen170
-\MPnumerator=\count296
-\makeMPintoPDFobject=\count297
-\everyMPtoPDFconversion=\toks28
+\nofMPsegments=\count290
+\nofMParguments=\count291
+\everyMPshowfont=\toks26
+\MPscratchCnt=\count292
+\MPscratchDim=\dimen162
+\MPnumerator=\count293
+\makeMPintoPDFobject=\count294
+\everyMPtoPDFconversion=\toks27
 )
 Package hyperref Info: Link coloring OFF on input line 171.
- (./Richard_Alvarez_Resume.out) (./Richard_Alvarez_Resume.out)
 \@outlinefile=\write3
 
 \openout3 = Richard_Alvarez_Resume.out
@@ -646,46 +625,14 @@ LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
 (Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 171.
 
-*geometry* driver: auto-detecting
-*geometry* detected driver: luatex
-*geometry* verbose mode - [ preamble ] result:
-* driver: luatex
-* paper: letterpaper
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=542.02501pt
-* \textheight=722.7pt
-* \oddsidemargin=-36.135pt
-* \evensidemargin=-36.135pt
-* \topmargin=-36.135pt
-* \headheight=0.0pt
-* \headsep=0.0pt
-* \topskip=11.0pt
-* \footskip=0.0pt
-* \marginparwidth=59.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
-
 
 LaTeX Font Warning: Font shape `TU/Avenir(0)/b/sc' undefined
 (Font)              using `TU/Avenir(0)/b/n' instead on input line 176.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 180.
+(Font)              <9> on input line 180.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <6> on input line 180.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 180.
 LaTeX Font Info:    Trying to load font information for U+lasy on input line 18
@@ -695,18 +642,14 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `TU/Avenir(0)/m/sc' undefined
-(Font)              using `TU/Avenir(0)/m/n' instead on input line 190.
+(Font)              using `TU/Avenir(0)/m/n' instead on input line 192.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 196.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 196.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 196.
+(Font)              <7> on input line 196.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
-(fancyhdr)                Make it at least 4.08003pt, for example:
-(fancyhdr)                \setlength{\footskip}{4.08003pt}.
+(fancyhdr)                Make it at least 3.60004pt, for example:
+(fancyhdr)                \setlength{\footskip}{3.60004pt}.
 
 [1
 
@@ -720,30 +663,34 @@ L3 programming layer <2024-02-20>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `Richard_Alvarez_Resume.out' has not changed.
 
-(rerunfilecheck)             Checksum: 075CBA89E80BDBD546E892E739628ADD;385.
+Package rerunfilecheck Warning: File `Richard_Alvarez_Resume.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `Richard_Alvarez_Resume.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  B8DC2C380CDC2381501692AE3B58A598;471.
 )
 
 Here is how much of LuaTeX's memory you used:
- 17326 strings out of 476447
- 125027,1977958 words of node,token memory allocated
+ 16814 strings out of 476447
+ 156290,1977958 words of node,token memory allocated
  460 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 6 attribute, 58 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 1:2,2:1290,3:473,4:162,5:405,6:100,7:11495,8:2,9:694,10:21,11:92
-4
- 39151 multiletter control sequences out of 65536+600000
- 64 fonts using 4349439 bytes
- 74i,11n,80p,448b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:2,2:1548,3:562,4:174,5:537,6:129,7:14037,8:2,9:870,10:14,11:12
+35
+ 38663 multiletter control sequences out of 65536+600000
+ 60 fonts using 4118399 bytes
+ 74i,11n,80p,606b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Avenir.ttc></System/Library/Fonts/Avenir.ttc></System/Lib
 rary/Fonts/Avenir.ttc></usr/local/texlive/2024/texmf-dist/fonts/type1/public/ams
-fonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfon
-ts/cm/cmsy6.pfb>
-Output written on Richard_Alvarez_Resume.pdf (1 page, 70701 bytes).
+fonts/cm/cmr9.pfb>
+Output written on Richard_Alvarez_Resume.pdf (1 page, 68046 bytes).
 
-PDF statistics: 64 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 131072)
- 33 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 47 PDF objects out of 1000 (max. 8388607)
+ 33 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

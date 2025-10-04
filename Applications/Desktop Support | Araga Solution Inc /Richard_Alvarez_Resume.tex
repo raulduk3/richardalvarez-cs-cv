@@ -5,7 +5,7 @@
 % License : MIT
 %------------------------
 
-\documentclass[letterpaper,11pt]{article}
+\documentclass[letterpaper,10pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -23,8 +23,6 @@
 \usepackage{iftex}
 \usepackage{fontspec}
 \usepackage{xspace} 
-% Adjust margins — symmetrical, balanced
-\usepackage[margin=1in]{geometry}
 
 \setmainfont{Avenir}
 
@@ -97,8 +95,8 @@
 \newcommand{\resumeSubheading}[4]{
 	\vspace{-2pt}\item
 	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
-		\textbf{\small #1} & \small #2 \\
-		\textit{\small #3} & \textit{\small #4} \\
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
 	\end{tabular*}\vspace{-7pt}
 }
 
@@ -145,7 +143,6 @@
 
 \newcommand{\resumeCert}[2]{
 	\small{
-	\vspace{-2pt}
 	\item
 	\textbf{#1} {\textit{\small #2}}
 	}
@@ -162,7 +159,11 @@
 \newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
 
 \newcommand{\resumeParagraph}[1]{
-  \item \small{#1}
+	\item[]
+	\parbox{\linewidth}{
+		\small{#1\xspace} % Modify this line
+	}
+	\vspace{-7pt}
 }
 
 %-------------------------------------------
@@ -178,12 +179,57 @@
 	\small
 	\hspace{.5pt} \href{mailto:rawalvarez731@gmail.com}{rawalvarez731@gmail.com} \hspace{.5pt}
 	$/$
-	 \hspace{.5pt} \href{+1 773.469.9726}{+(1) 773 469-9726} \hspace{.5pt}
+	 \hspace{.5pt} \href{https://github.com/raulduk3}{GitHub} \hspace{.5pt}
 	$/$
 	\hspace{.5pt} \href{https://www.linkedin.com/in/richardalvarez-/}{LinkedIn} \hspace{.5pt}
 	$/$
 	\hspace{.5pt} \href{https://www.google.com/maps/place/Chicago,+IL/@41.833871,-87.8967704,11z/data=!3m1!4b1!4m6!3m5!1s0x880e2c3cd0f4cbed:0xafe0a6ad09c0c000!8m2!3d41.8781136!4d-87.6297982!16zL20vMDFfZDQ?entry=ttu}{Chicago, Illinois}
 \end{center}
+
+%----------- ABOUT ME  -----------
+
+\vspace{-8pt}
+
+\section{About Me}
+\vspace{2pt}
+\resumeSubHeadingListStart
+
+\resumeParagraph{Recent graduate with strong academic and practical background in data analytics and IT support. Experienced in generating reports, analyzing user needs, and troubleshooting systems. Looking to contribute to business analysis and customer experience through structured research and documentation.} 
+\\ \vspace{4pt}
+
+\resumeSubHeadingListEnd
+
+\vspace{-12pt}
+
+%----------- EDUCATION -----------
+
+\section{Education}
+\vspace{4pt}
+\resumeSubHeadingListStart
+
+
+\resumeEducationHeading
+{Kenyon College}{Gambier, Ohio}
+{Bachelor of Arts in Film; GPA: 3.4/4.0}{Aug 2020 – May 2024}
+{Minor in History and Concentration in Integrated Program in Humane Studies}{}
+
+%\resumeParagraph{Authored two papers on machine learning applications in creative industries. Produced and edited over 15 experimental video projects, including music videos, audio-reactive visualizations, and short films.}
+
+\resumeParagraph{Relevant coursework includes Senior Research Seminar, AI for the Humanities, Advanced Post-Production, Data Structures and Program Design, Digital Photography, Sex, Drugs, Guns: Research Strategies in the Contemporary Age, and Software Development.}
+
+\resumeParagraph{Completed multiple data-focused humanities courses including IPHS 200 “Programming Humanity,” emphasizing Python, NLP, and data visualization in social and ethical contexts.}
+
+%----------- Archived  -----------
+
+\iffalse
+\resumeSubheading
+{Walter Payton College Preparatory 
+% \normalfont{(Admission rate: 0.85\%)}
+}{Chicago, Illinois}
+{High School Diploma}{Sep 2016 \textbf{--} Jun 2020}
+\fi
+
+\resumeSubHeadingListEnd
 
 %----------- WORK EXPERIENCE -----------
 
@@ -192,36 +238,35 @@
 \resumeSubHeadingListStart
 
 \resumeSubheading
-{Freelance Web Developer}{Remote}
-{Self-Employed}{2020 – Present}
-\resumeParagraph{Design, build, and maintain custom web applications for clients in creative and commercial industries. Translate business needs into responsive, high-performance websites. Provide technical documentation and training as needed.}
-\vspace{-4pt}
-\resumeItemListStart
-\resumeItem{Built a full-stack e-commerce platform for a skate brand using Next.js, Tailwind CSS, and Node.js, with Stripe API integration and secure checkout.}
-\resumeItem{Developed a dynamic portfolio site for a cinematographer with a custom CMS and optimized video hosting via DigitalOcean.}
-\resumeItem{Created GRE vocabulary flashcard app using LangChain + OpenAI, with authentication and persistent user data.}
-\resumeItem{Delivered sites with 95\%+ Lighthouse scores, focused on speed, accessibility, and mobile optimization.}
-\resumeItemListEnd
-
-\vspace{2pt}
-
-\resumeSubheading
-{Competition Support Technician}{Chicago, Illinois}
-{BDPA High School Coding Competition · Volunteer}{Apr 2024 – Present}
-\resumeParagraph{
-  Set up 18 laptops for a coding competition for nine youth teams, including OS flashing and hardware configuration. Managed troubleshooting requests during the live event and supported faculty and judges on technical setup. Assisted in inventory management and system checks pre/post competition.
-}
-
-\vspace{2pt}
-
-
-\resumeSubheading
 {LEGO STEM Instructor}{Chicago, Illinois}
 {Play-Well TEKnologies · Part-time}{Oct 2024 – Dec 2024}
 \resumeParagraph{Taught STEM-focused LEGO classes to children, introducing engineering and problem-solving concepts through hands-on activities. Managed classroom engagement, ensured safety, and adapted instruction to diverse learning styles. Communicated effectively with parents and staff to provide updates and address concerns.}
 
+\vspace{2pt}
+
+\resumeSubheading
+{IT Assistant}{Gambier, Ohio}
+{Library and Information Services (LBIS), Kenyon College · Part-time}{Sep 2023 – Feb 2024}
+\resumeParagraph{
+  I supported campus-wide technology needs by preparing workstations, moving office tech, and securely erasing and recycling equipment. I restocked printers daily and conducted classroom checks under the guidance of team members. I configured and troubleshot printers and classroom AV systems including projectors and microphones. I created an automated spreadsheet mapping class times to maintenance windows, improving team scheduling.
+}
+
+
+\vspace{2pt}
+
+\resumeSubheading
+{Research Assistant}{Chicago, Illinois}
+{University of Chicago · Part-time}{Aug 2018 - Nov 2019}
+\resumeParagraph{I worked under Bernard Dickens III on an academic paper proposing strategies to protect against supply-chain attacks and ensure file integrity using advanced checksum technologies. I attended monthly code reviews and contributed 27 commits to the repository.}
+
 %———– Archived  ———–
 \iffalse
+
+\resumeSubheading
+{Video Editor}{Gambier, Ohio}
+{Kenyon College · Contract}{Apr 2022 – May 2022}
+\resumeParagraph{I condensed over 30 hours of interviews into a concise 10-minute recap for the John W. Adams Summer Scholars Program in Socio-Legal Studies. I crafted a polished visual presentation that adhered to Kenyon’s Visual Identity System. I highlighted key interview themes while ensuring balanced representation of all participants. I delivered the final product on schedule in an optimized format, maintaining professional collaboration with the employer throughout the project.}
+
 
 \resumeSubheading
 {Assistant General Contractor}{Chicago, Illinois}
@@ -243,70 +288,19 @@
 {Teacher’s Aid}{Apr 2019 – Feb 2020}
 \resumeParagraph{Tutored students, facilitated programming learning, provided teacher support, and ensured effective communication and punctuality.}
 
-\resumeSubheading
-{Research Assistant}{Chicago, Illinois}
-{University of Chicago · Part-time}{Aug 2018 - Nov 2019}
-\resumeParagraph{I worked under Bernard Dickens III on an academic paper proposing strategies to protect against supply-chain attacks and ensure file integrity using advanced checksum technologies. I attended monthly code reviews and contributed 27 commits to the repository.}
-
 
 \fi
 
 \resumeSubHeadingListEnd
-
-%----------- EDUCATION -----------
-
-\section{Education}
-\vspace{4pt}
-\resumeSubHeadingListStart
-
-
-\resumeEducationHeading
-{Kenyon College}{Gambier, Ohio}
-{Bachelor of Arts in Film; GPA: 3.4/4.0}{Aug 2020 – May 2024}
-{Minor in History and Concentration in Integrated Program in Humane Studies}{}
-
-\resumeParagraph{Authored two papers on machine learning applications in creative industries. Produced and edited over 15 experimental video projects, including music videos, audio-reactive visualizations, and short films.}
-
-\resumeParagraph{Relevant coursework includes Senior Research Seminar, AI for the Humanities, Advanced Post-Production, Data Structures and Program Design, Digital Photography, Sex, Drugs, Guns: Research Strategies in the Contemporary Age, and Software Development.}
-
-%\resumeParagraph{Completed multiple data-focused humanities courses including IPHS 200 “Programming Humanity,” emphasizing Python, NLP, and data visualization in social and ethical contexts.}
-
-%----------- Archived  -----------
-
-\iffalse
-\resumeSubheading
-{Walter Payton College Preparatory 
-% \normalfont{(Admission rate: 0.85\%)}
-}{Chicago, Illinois}
-{High School Diploma}{Sep 2016 \textbf{--} Jun 2020}
-\fi
-
-\resumeSubHeadingListEnd
-
-%———– SKILLS ———–
-\section{Skills}
-\vspace{4pt}
-\resumeSubHeadingListStart
-
-\small{\item{
-
-\textbf{Customer Service:} Troubleshooting, clear communication, in-person and remote support, teamwork under pressure \\ \vspace{2pt}
-\textbf{Technical Skills:} Windows 10/11, device setup, printers, AV equipment, Zoom, Microsoft Teams, ServiceNow \\ \vspace{2pt}
-\textbf{Digital Tools:} Microsoft Office, Google Workspace, CMS platforms, basic Adobe Suite, data entry and organization \\ \vspace{2pt}
-\textbf{Organization:} Time management, task tracking, inventory handling, safety protocols, classroom and shop floor coordination \\ \vspace{2pt}
-\textbf{Creative Work:} Video editing, web content updates, social media assets, visual presentation
-
-}}
-
-\resumeSubHeadingListEnd
-
-\vspace{-16pt}
 
  %———– PUBLICATIONS ———–
-\iffalse
 \section{Publications}
 \vspace{4pt}
 \resumeSubHeadingListStart
+
+\resumeProjectHeading
+{\textbf{A Retrieval-Augmented Film Recommendation System} $|$ \emph{\href{https://github.com/raulduk3/language-model-driven-film-recommendation}{\color{blue}GitHub}} $|$ \emph{\href{https://digital.kenyon.edu/dh_iphs_ss/34/}{\color{blue}Digital Kenyon}} $|$ \xsmall{May 8th 2024}}{}
+\resumeParagraph{This project utilized LangChain’s OpenAI integration to dynamically generate queries based on user preferences, showcasing the potential of advanced AI and machine learning in digital entertainment. The Retrieval-Augmented Film Recommendation System was developed using Node.js and integrated with the OMDb and TMDb APIs to enhance movie metadata, delivering precise and personalized recommendations.}
 
 %———– Archived  ———–
 \iffalse
@@ -326,7 +320,6 @@
 \fi
 
 \resumeSubHeadingListEnd
-\fi
 
 %———– CERTIFICATES ———–
 
@@ -358,7 +351,23 @@
 \resumeSubHeadingListEnd
 \fi
 
-\iffalse
+%———– SKILLS ———–
+\section{Skills}
+\vspace{4pt}
+\resumeSubHeadingListStart
+
+\small{\item{
+
+
+\textbf{Technical Support:} Windows 10/11, printer troubleshooting, PC imaging, secure data wiping, AV setup (projectors, mics), Zoom, Microsoft Teams, ticketing systems (e.g. ServiceNow) \\ \vspace{2pt}
+\textbf{Programming}: Python, JavaScript/TypeScript, SQL, C/C++, Tableau, regular expression \\ \vspace{2pt}
+\textbf{Frameworks}: Next.js, React, Tailwind CSS, Scikit-Learn, Keras, pandas, NumPy, LangChain \\ \vspace{2pt}
+\textbf{Hardware:} Workstation setup, printer maintenance, classroom AV gear, scanner/camera configuration \\ \vspace{2pt}
+
+
+}}
+
+\resumeSubHeadingListEnd
 
 \newpage
 
@@ -442,11 +451,9 @@
 \vspace{1pt}
 \resumeParagraph{This research focused on analyzing short-format video editing trends by leveraging PySceneDetect and unsupervised deep neural networks. Advanced data visualization techniques, including t-SNE and PCA, were employed to uncover patterns and gain insights into the editing styles and trends prevalent in the dataset.}
 
+\resumeProjectHeading {\textbf{AI-Driven Kubrick-Inspired Film Script Generation} $|$ \emph{\href{https://github.com/raulduk3/kubrick-gen}{\color{blue}GitHub}}}{} \resumeParagraph{Designed and developed an AI pipeline to generate film scripts inspired by Stanley Kubrick’s cinematic style. Leveraging Dust.tt and Large Language Models, I created a custom API to enable dynamic and stylistically consistent script generation. This project demonstrated the potential of generative AI for creative industries, producing scripts that emulated Kubrick's distinctive narrative and thematic characteristics.}
 
-\resumeProjectHeading
-{\textbf{A Retrieval-Augmented Film Recommendation System} $|$ \emph{\href{https://github.com/raulduk3/language-model-driven-film-recommendation}{\color{blue}GitHub}} $|$ \emph{\href{https://digital.kenyon.edu/dh_iphs_ss/34/}{\color{blue}Digital Kenyon}} $|$ \xsmall{May 8th 2024}}{}
-\vspace{1pt}
-\resumeParagraph{This project utilized LangChain’s OpenAI integration to dynamically generate queries based on user preferences, showcasing the potential of advanced AI and machine learning in digital entertainment. The Retrieval-Augmented Film Recommendation System was developed using Node.js and integrated with the OMDb and TMDb APIs to enhance movie metadata, delivering precise and personalized recommendations.}
+\resumeProjectHeading {\textbf{Sentiment Analysis of Rotten Tomatoes Reviews} $|$ \emph{\href{https://github.com/raulduk3/sa-rotten-tamatoes}{\color{blue}GitHub}}}{} \resumeParagraph{Conducted a sentiment analysis of user reviews from Rotten Tomatoes to evaluate the psychology of movie consumers and the reliability of the platform's ‘freshness’ indicators. Using VADER and the NLTK library, I processed text data by filtering stop words, tokenizing reviews, and extracting sentiment scores. The analysis revealed that 73 of user reviews aligned with their assigned ‘freshness’ labels, validating both the reliability of Rotten Tomatoes user ratings and the effectiveness of the VADER sentiment analysis tool. Findings were presented in detailed visual reports, highlighting correlations between sentiment and user ratings.}
 
 \resumeSubHeadingListEnd
 
@@ -482,6 +489,4 @@
 % \resumeSubHeadingListEnd
 
 %—————————————––
-
-\fi
 \end{document}

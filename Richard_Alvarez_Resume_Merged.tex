@@ -1,0 +1,247 @@
+%-------------------------
+% Resume in Latex
+% Author : Aras Gungore
+% Edits: Richard A. Alvarez
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyphenat}
+\usepackage{fontawesome5}
+\usepackage{iftex}
+\usepackage{fontspec}
+\usepackage{xspace} 
+\usepackage[margin=1in]{geometry}
+
+\setmainfont{Avenir}
+\frenchspacing 
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+	\vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\newcommand{\xsmall}{\fontsize{8pt}{8pt}\selectfont}
+\newcommand{\normal}{\fontsize{16pt}{16pt}\selectfont}
+\newcommand{\titlef}{\fontsize{21pt}{21pt}\selectfont}
+
+\newcommand{\resumeItem}[1]{
+	\item\small{{#1 \vspace{-2pt}}}
+}
+
+\fancypagestyle{firstpage}{
+  \fancyhf{}
+}
+\fancypagestyle{otherpages}{
+	\vspace{8pt}
+  	\fancyhf{}
+  	\fancyfoot[C]{\small \\[4pt] Richard Alvarez}
+}
+\pagestyle{otherpages}
+\thispagestyle{firstpage}
+
+\newcommand{\resumeSubheading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{\small #1} & \small #2 \\
+		\textit{\small #3} & \textit{\small #4} \\
+	\end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSubSubheading}[2]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\textit{\small#1} & \textit{\small #2} \\
+	\end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeEducationHeading}[6]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{\small#3} & \textit{\small #4} \\
+		\textit{\small#5} & \textit{\small #6} \\
+	\end{tabular*}\vspace{-5pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+		\small#1 & #2 \\
+	\end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeOrganizationHeading}[4]{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & {\small #2} \\
+		\textit{\small#3}
+	\end{tabular*}\vspace{-7pt}
+}
+\newcommand{\resumeSmallOrganizationHeading}[4]{
+	\small{
+	\vspace{-2pt}\item
+	\begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & {\small #2} \\
+		\textit{\small#3} & \textit{\small #4} 
+	\end{tabular*}\vspace{-7pt}
+	}
+}
+\newcommand{\resumeCert}[2]{
+	\small{
+	\vspace{-2pt}
+	\item
+	\textbf{#1} {\textit{\small #2}}
+	}
+	\vspace{-4pt}
+}
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeParagraph}[1]{\item \small{#1}}
+
+\begin{document}
+
+%---------- HEADING ----------
+\begin{center}
+	\textbf{\titlef \scshape Richard Álvarez} \\ \vspace{6pt} 
+	\small
+	\href{mailto:rawalvarez731@gmail.com}{rawalvarez731@gmail.com} $/$
+	\href{https://github.com/raulduk3}{GitHub} $/$
+	\href{https://www.linkedin.com/in/richardalvarez-/}{LinkedIn} $/$
+	Chicago, IL
+\end{center}
+
+%----------- ABOUT ME -----------
+\section{About Me}
+\resumeSubHeadingListStart
+\resumeParagraph{
+AI Engineer and Sole Proprietor with a foundation in IT systems administration and client-focused software development. Skilled in Windows and macOS administration, Active Directory, ServiceNow, and networking (TCP/IP, DNS, DHCP, VPNs). Current work centers on applied machine learning, multi-agent systems, and deploying LLM-powered solutions for small and medium-sized businesses. Combining hands-on technical skills with AI integration to deliver tools that improve efficiency and ROI.
+}
+\resumeSubHeadingListEnd
+
+%----------- CERTIFICATES -----------
+\section{Certificates}
+\resumeSubHeadingListStart
+\vspace{2pt}
+\resumeCert{CompTIA A+}{Sep 2025}
+\resumeCert{CompTIA ITF+}{Sep 2024}
+\resumeSubHeadingListEnd
+
+%----------- WORK EXPERIENCE -----------
+\section{Work Experience}
+\resumeSubHeadingListStart
+
+\resumeSubheading
+{Freelance Web Developer}{Remote}
+{Self-Employed}{Oct 2024 – Present}
+\resumeParagraph{
+Design, build, and maintain custom web applications for clients in creative and commercial industries. Translate business needs into responsive, high-performance websites with 95\%+ Lighthouse scores for speed, accessibility, and mobile optimization. Provide technical documentation and training to clients. Recently expanded services into automation and AI integration, prototyping tools with LangChain, n8n, and LLM APIs to streamline scheduling, email triage, and customer support workflows for SMBs.
+}
+
+\resumeSubheading
+{IT Support Technician}{Multiple Locations}
+{BDPA National High School Coding Competition · Volunteer}{Apr 2024 – Present}
+\resumeParagraph{Configured and maintained 18 laptops for nine student teams at a national coding competition, including OS imaging, hardware setup, and system validation. Provided real-time troubleshooting during live events and supported faculty and judges on technical issues. Assisted in inventory management and post-event system checks.}
+
+\resumeSubheading
+{IT Assistant}{Gambier, OH}
+{Kenyon College Library \& Information Services · Part-time}{Sep 2023 – Feb 2024}
+\resumeParagraph{Provided campus-wide IT support, including workstation imaging, hardware deployment, and printer/AV troubleshooting. Performed secure data destruction on decommissioned drives in compliance with policy. Assisted faculty and staff with technology needs and documented recurring issues for team resolution. Streamlined maintenance scheduling by programming a spreadsheet tool automatically mapping course meetings to classroom availability.}
+
+\resumeSubheading
+{Assistant General Contractor}{Chicago, Illinois}
+{Sommerlad Construction · Part-time}{Jun 2023 – Aug 2023}
+\resumeParagraph{I participated in demolition projects for remodeling efforts, performed general land management tasks such as lawn mowing and simple assembly, and supported the team in meeting deadlines and adhering to safety standards.}
+
+\resumeSubHeadingListEnd
+
+%----------- EDUCATION -----------
+\section{Education}
+\resumeSubHeadingListStart
+\resumeEducationHeading
+{Kenyon College}{Aug 2020 – May 2024}
+{Bachelor of Arts in Film; GPA: 3.4/4.0}{Gambier, OH}
+{Minor in History; Concentration in Integrated Program in Humane Studies}{}
+\resumeSubHeadingListEnd
+
+
+%----------- SKILLS -----------
+\section{Skills}
+\resumeSubHeadingListStart
+\small{\item{
+\textbf{Systems:} Windows 10/11, macOS, Linux fundamentals, Active Directory, Azure AD, Office 365, Exchange \\
+\textbf{Networking:} TCP/IP, DNS, DHCP, VPN, firewalls, remote access \\
+\textbf{Security:} Endpoint protection, patch management, access controls, SIEM monitoring, incident response \\
+\textbf{Support Tools:} ServiceNow, Jira, Zendesk, RDP, TeamViewer \\
+\textbf{Cloud:} AWS (IAM, EC2, S3), Microsoft 365, Google Workspace, VMware, Hyper-V \\
+\textbf{Hardware:} Device imaging, workstation setup, printer/scanner support, mobile device management \\
+}}
+\resumeSubHeadingListEnd
+
+
+
+%----------- WEB PROJECTS -----------
+\section{Web Projects}
+\vspace{2pt}
+\resumeSubHeadingListStart
+\resumeSubheading
+{Joaquin Morales}{Jun 2025}
+{Portfolio}{\href{https://joaquinmoralesdp.com}{joaquinmoralesdp.com}}
+\resumeParagraph{Designed and deployed a dynamic portfolio site for a professional cinematographer. The project used Next.js for high performance, with Tailwind CSS for responsive design. Implemented a custom CMS to enable efficient content updates, managing galleries and testimonials with ease. Leveraged DigitalOcean S3 storage for scalability and fast load times for video and photo content.}
+
+\resumeSubheading
+{Machine Television}{Oct 2024}
+{Online Store}{\href{https://machinetelevision-git-main-richard-alvarezs-projects.vercel.app/}{machinetelevision.com}}
+\resumeParagraph{Developed a functional e-commerce platform for an independent skate brand. The site was built using Next.js and Tailwind CSS for an intuitive front-end, paired with Node.js for a robust back-end infrastructure. Integrated Stripe API for seamless payment processing, optimizing user workflows across desktop and mobile.}
+
+\resumeSubheading
+{GREasyVocab Flashcards}{Jul 2024}
+{Web App}{Inactive}
+\resumeParagraph{Created a personalized GRE vocabulary tool powered by OpenAI's APIs. The application leverages LangChain to provide personalized prompts tailored to user inputted data. Developed a secure full-stack system with user authentication and database management, ensuring a smooth and customized learning experience.}
+\resumeSubHeadingListEnd
+
+%----------- PUBLICATIONS -----------
+\section{Publications}
+
+\vspace{2pt}
+
+\resumeSubHeadingListStart
+\resumeSubheading
+{\textbf{A Retrieval-Augmented Film Recommendation System}}{May 8th 2024}{\emph{\href{https://digital.kenyon.edu/dh_iphs_ss/34/}{\color{blue}Digital Kenyon}}}{\emph{\href{https://github.com/raulduk3/language-model-driven-film-recommendation}{\color{blue}GitHub}}}
+\resumeParagraph{Utilized LangChain’s OpenAI integration to dynamically generate queries based on user preferences. Developed using Node.js and integrated with the OMDb and TMDb APIs to enhance movie metadata, delivering precise recommendations.}
+
+\resumeSubheading
+{\textbf{Captivating Video Editing Secrets}}{May 23rd 2023}{\emph{\href{https://digital.kenyon.edu/dh_iphs_ss/22/}{\color{blue}Digital Kenyon}}}{\emph{\href{https://github.com/raulduk3/language-model-driven-film-recommendation}{\color{blue}GitHub}}}
+\resumeParagraph{Analyzed short-format video editing trends using PySceneDetect and Deep Neural Networks for unsupervised clustering, uncovering editing patterns and creative decisions.}
+\resumeSubHeadingListEnd
+
+\end{document}

@@ -1,7 +1,7 @@
-This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.1)  28 AUG 2025 02:00
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2024)  (format=lualatex 2024.8.1)  14 AUG 2025 12:47
  restricted system commands enabled.
-**Richard_Alvarez_Resume.tex
-(./Richard_Alvarez_Resume.tex
+**Richard_Alvarez_ED_resume.tex
+(./Richard_Alvarez_ED_resume.tex
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
 Lua module: luaotfload 2024-02-14 3.28 Lua based OpenType font support
@@ -536,8 +536,8 @@ tlig;"
 (fontspec)             - 'bold italic small caps'  (b/scit) with NFSS spec.: 
 
 
-(./Richard_Alvarez_Resume.aux)
-\openout1 = Richard_Alvarez_Resume.aux
+(./Richard_Alvarez_ED_resume.aux)
+\openout1 = Richard_Alvarez_ED_resume.aux
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 171.
 LaTeX Font Info:    ... okay on input line 171.
@@ -581,10 +581,10 @@ LaTeX Font Info:    ... okay on input line 171.
 \everyMPtoPDFconversion=\toks28
 )
 Package hyperref Info: Link coloring OFF on input line 171.
- (./Richard_Alvarez_Resume.out) (./Richard_Alvarez_Resume.out)
+ (./Richard_Alvarez_ED_resume.out) (./Richard_Alvarez_ED_resume.out)
 \@outlinefile=\write3
 
-\openout3 = Richard_Alvarez_Resume.out
+\openout3 = Richard_Alvarez_ED_resume.out
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
@@ -695,14 +695,17 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `TU/Avenir(0)/m/sc' undefined
-(Font)              using `TU/Avenir(0)/m/n' instead on input line 190.
+(Font)              using `TU/Avenir(0)/m/n' instead on input line 192.
 
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 196.
+(Font)              <10.95> on input line 213.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 196.
+(Font)              <8> on input line 213.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 196.
+(Font)              <6> on input line 213.
+LaTeX Font Info:    Font shape `TU/Avenir(0)/m/sl' in size <10> not available
+(Font)              Font shape `TU/Avenir(0)/m/it' tried instead on input line 
+281.
 
 Package fancyhdr Warning: \footskip is too small (0.0pt): 
 (fancyhdr)                Make it at least 4.08003pt, for example:
@@ -711,7 +714,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 [1
 
 {/usr/local/texlive/2024/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
-(./Richard_Alvarez_Resume.aux)
+(./Richard_Alvarez_ED_resume.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-02-20>
@@ -720,30 +723,30 @@ L3 programming layer <2024-02-20>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `Richard_Alvarez_Resume.out' has not changed.
-
-(rerunfilecheck)             Checksum: 075CBA89E80BDBD546E892E739628ADD;385.
+Package rerunfilecheck Info: File `Richard_Alvarez_ED_resume.out' has not chang
+ed.
+(rerunfilecheck)             Checksum: A4993852BCCD21731DC86AF9AF6059C5;588.
 )
 
 Here is how much of LuaTeX's memory you used:
- 17326 strings out of 476447
+ 17329 strings out of 476447
  125027,1977958 words of node,token memory allocated
  460 words of node memory still in use:
    3 hlist, 1 vlist, 1 rule, 2 glue, 3 kern, 1 glyph, 6 attribute, 58 glue_spec,
  4 attribute_list, 1 write nodes
-   avail lists: 1:2,2:1290,3:473,4:162,5:405,6:100,7:11495,8:2,9:694,10:21,11:92
-4
- 39151 multiletter control sequences out of 65536+600000
- 64 fonts using 4349439 bytes
- 74i,11n,80p,448b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
+   avail lists: 1:2,2:1374,3:521,4:174,5:426,6:106,7:12548,8:2,9:736,10:21,11:10
+43
+ 39153 multiletter control sequences out of 65536+600000
+ 65 fonts using 4412167 bytes
+ 74i,11n,80p,451b,1120s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </System/Library/Fonts/Avenir.ttc></System/Library/Fonts/Avenir.ttc></System/Lib
 rary/Fonts/Avenir.ttc></usr/local/texlive/2024/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmr10.pfb></usr/local/texlive/2024/texmf-dist/fonts/type1/public/amsfon
 ts/cm/cmsy6.pfb>
-Output written on Richard_Alvarez_Resume.pdf (1 page, 70701 bytes).
+Output written on Richard_Alvarez_ED_resume.pdf (1 page, 69760 bytes).
 
-PDF statistics: 64 PDF objects out of 1000 (max. 8388607)
- 49 compressed objects within 1 object stream
- 6 named destinations out of 1000 (max. 131072)
- 33 words of extra memory for PDF output out of 10000 (max. 100000000)
+PDF statistics: 68 PDF objects out of 1000 (max. 8388607)
+ 53 compressed objects within 1 object stream
+ 7 named destinations out of 1000 (max. 131072)
+ 41 words of extra memory for PDF output out of 10000 (max. 100000000)
 
