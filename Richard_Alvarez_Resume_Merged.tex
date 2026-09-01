@@ -23,16 +23,10 @@
 \usepackage{iftex}
 \usepackage{fontspec}
 \usepackage{xspace} 
-\usepackage[margin=1in]{geometry}
+\usepackage[left=0.5in,right=0.5in,top=0.32in,bottom=0.35in]{geometry}
 
 \setmainfont{Avenir}
 \frenchspacing 
-
-\addtolength{\oddsidemargin}{-0.5in}
-\addtolength{\evensidemargin}{-0.5in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.58in}
-\addtolength{\textheight}{1.0in}
 
 \pagestyle{fancy}
 \fancyhf{}
@@ -134,7 +128,8 @@
 
 %---------- HEADING ----------
 {\centering
-	\textbf{\titlef \scshape Richard Álvarez}\\[2pt]
+	\textbf{\titlef \scshape Richard Álvarez}\par
+	\vspace{4pt}
 	{\footnotesize
 	\href{mailto:rawalvarez731@gmail.com}{rawalvarez731@gmail.com}\contactsep%
 	\href{https://github.com/raulduk3}{github.com/raulduk3}\contactsep%
@@ -142,13 +137,17 @@
 	\href{https://richardalvarez.info}{richardalvarez.info}\contactsep%
 	Chicago, IL\par}
 }
-\vspace{-12pt}
 
 %----------- SUMMARY -----------
-\section{Professional Summary}
-\resumeSubHeadingListStart
-\resumeParagraph{Applied AI systems engineer who turns frontier models into reliable tools for real business workflows. Designs agent systems, MCP and tool integrations, orchestration, identity and permission boundaries, human approval paths, observability, and cost-aware deployment across production software stacks.}
-\resumeSubHeadingListEnd
+\vspace{6pt}
+\noindent{\large\scshape Professional Summary}\par
+\vspace{1pt}
+\hrule height 0.4pt
+\vspace{4pt}
+\noindent\hspace{0.15in}%
+\begin{minipage}{\dimexpr\textwidth-0.15in\relax}
+\small Applied AI systems engineer who turns frontier models into reliable tools for real business workflows. Designs agent systems, MCP and tool integrations, orchestration, identity and permission boundaries, human approval paths, observability, and cost-aware deployment across production software stacks.
+\end{minipage}\par
 
 %----------- EXPERIENCE -----------
 \section{Experience}
