@@ -20,12 +20,12 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength{\tabcolsep}{0pt}
-\setlength{\footskip}{18pt}
+\setlength{\footskip}{27pt}
 \urlstyle{same}
 
 \fancypagestyle{cvpage}{
   \fancyhf{}
-  \fancyfoot[C]{\footnotesize \thepage}
+  \fancyfoot[C]{\contactfooter\\[5pt]\footnotesize \thepage}
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{0pt}
 }
@@ -70,15 +70,17 @@
   {\begin{itemize}[label={},leftmargin=0pt,itemindent=0pt,itemsep=4pt,topsep=4pt,parsep=0pt,partopsep=0pt]}
   {\end{itemize}\vspace{3pt}}
 
-\begin{document}
-
-{\fontsize{17pt}{19pt}\selectfont\textbf{Richard Álvarez}}\\[3pt]
-{\small
+\newcommand{\contactfooter}{\footnotesize
 Chicago, Illinois\contactsep%
-\href{mailto:rawalvarez731@gmail.com}{rawalvarez731@gmail.com}\\[-1pt]
+\href{mailto:rawalvarez731@gmail.com}{rawalvarez731@gmail.com}\contactsep%
 \href{https://richardalvarez.info}{richardalvarez.info}\contactsep%
 \href{https://github.com/raulduk3}{GitHub}\contactsep%
 \href{https://www.linkedin.com/in/richardalvarez-/}{LinkedIn}}
+
+\begin{document}
+
+{\fontsize{17pt}{19pt}\selectfont\textbf{Richard Álvarez}}\par
+\vspace{4pt}
 
 \section{Research Areas}
 Human--computer interaction; human-centered AI; computational media; AI-assisted creative tools.

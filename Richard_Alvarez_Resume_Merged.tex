@@ -23,7 +23,7 @@
 \usepackage{iftex}
 \usepackage{fontspec}
 \usepackage{xspace} 
-\usepackage[left=0.5in,right=0.5in,top=0.28in,bottom=0.35in]{geometry}
+\usepackage[left=0.5in,right=0.5in,top=0.4in,bottom=0.65in]{geometry}
 
 \setmainfont{Avenir}
 \frenchspacing 
@@ -38,7 +38,7 @@
 \raggedbottom
 \raggedright
 \setlength{\tabcolsep}{0in}
-\setlength{\footskip}{5pt}
+\setlength{\footskip}{26pt}
 
 \titleformat{\section}{
 	\vspace{-4pt}\scshape\raggedright\large
@@ -51,17 +51,6 @@
 \newcommand{\resumeItem}[1]{
 	\item\small{{#1 \vspace{-2pt}}}
 }
-
-\fancypagestyle{firstpage}{
-  \fancyhf{}
-}
-\fancypagestyle{otherpages}{
-	\vspace{8pt}
-  	\fancyhf{}
-  	\fancyfoot[C]{\small \\[4pt] Richard Alvarez}
-}
-\pagestyle{otherpages}
-\thispagestyle{firstpage}
 
 \newcommand{\resumeSubheading}[4]{
 	\vspace{-2pt}\item
@@ -124,23 +113,23 @@
 \newcommand{\resumeParagraph}[1]{\item \small{#1}}
 \newcommand{\contactsep}{\hspace{0.8em}\raisebox{0.18ex}{\fontsize{5}{5}\selectfont$\circ$}\hspace{0.8em}}
 
+\newcommand{\contactfooter}{\footnotesize \href{mailto:rawalvarez731@gmail.com}{rawalvarez731@gmail.com}\contactsep%
+	\href{https://github.com/raulduk3}{github.com/raulduk3}\contactsep%
+	\href{https://www.linkedin.com/in/richardalvarez-/}{linkedin.com/in/richardalvarez-}\contactsep%
+	\href{https://richardalvarez.info}{richardalvarez.info}\contactsep%
+	Chicago, IL}
+\fancyfoot[C]{\contactfooter}
+
 \begin{document}
 
 %---------- HEADING ----------
 {\centering
-	\textbf{\titlef \scshape Richard Álvarez}\par
-	\vspace{8pt}
-	{\footnotesize
-	\href{mailto:rawalvarez731@gmail.com}{rawalvarez731@gmail.com}\contactsep%
-	\href{https://github.com/raulduk3}{github.com/raulduk3}\contactsep%
-	\href{https://www.linkedin.com/in/richardalvarez-/}{linkedin.com/in/richardalvarez-}\contactsep%
-	\href{https://richardalvarez.info}{richardalvarez.info}\contactsep%
-	Chicago, IL\par}
+\textbf{\titlef \scshape Richard Álvarez}\par
 }
 
 %----------- EXPERIENCE -----------
-% Preserve the former summary's header spacing at the top of the resume.
-\vspace{6pt}
+% Give the name and first section a natural separation.
+\vspace{12pt}
 \noindent{\large\scshape Experience}\par
 \vspace{1pt}
 \hrule height 0.4pt
