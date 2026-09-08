@@ -20,12 +20,12 @@
 \setlength{\parindent}{0pt}
 \setlength{\parskip}{0pt}
 \setlength{\tabcolsep}{0pt}
-\setlength{\footskip}{27pt}
+\setlength{\footskip}{18pt}
 \urlstyle{same}
 
 \fancypagestyle{cvpage}{
   \fancyhf{}
-  \fancyfoot[C]{\contactfooter\\[5pt]\footnotesize \thepage}
+  \fancyfoot[C]{\footnotesize \thepage}
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{0pt}
 }
@@ -34,7 +34,7 @@
 \titleformat{\section}
   {\Needspace{8\baselineskip}\normalsize\bfseries}
   {}{0pt}{}
-\titlespacing*{\section}{0pt}{6pt}{3pt}
+\titlespacing*{\section}{0pt}{8pt}{3pt}
 
 \newcommand{\cventry}[4]{
   \Needspace{9\baselineskip}
@@ -70,17 +70,15 @@
   {\begin{itemize}[label={},leftmargin=0pt,itemindent=0pt,itemsep=4pt,topsep=4pt,parsep=0pt,partopsep=0pt]}
   {\end{itemize}\vspace{3pt}}
 
-\newcommand{\contactfooter}{\footnotesize
+\begin{document}
+
+{\fontsize{17pt}{19pt}\selectfont\textbf{Richard Álvarez}}\\[3pt]
+{\small
 Chicago, Illinois\contactsep%
-\href{mailto:rawalvarez731@gmail.com}{rawalvarez731@gmail.com}\contactsep%
+\href{mailto:rawalvarez731@gmail.com}{rawalvarez731@gmail.com}\\[-1pt]
 \href{https://richardalvarez.info}{richardalvarez.info}\contactsep%
 \href{https://github.com/raulduk3}{GitHub}\contactsep%
 \href{https://www.linkedin.com/in/richardalvarez-/}{LinkedIn}}
-
-\begin{document}
-
-{\fontsize{20pt}{22pt}\selectfont\textbf{Richard Álvarez}}\par
-\vspace{4pt}
 
 \section{Research Areas}
 Human--computer interaction; human-centered AI; computational media; AI-assisted creative tools.
